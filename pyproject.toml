@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "playing-with-c"
+version = "0.1.0"
+description = ""
+authors = ["Scott Robertson <scott.peter.robertson@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+cmake = "^3.27.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
